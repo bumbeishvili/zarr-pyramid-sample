@@ -1,0 +1,71 @@
+{
+  "multiscales": [
+    {
+      "datasets": [
+        {
+          "path": "0",
+          "level": 0,
+          "crs": "EPSG:3857",
+          "pixels_per_tile": 256
+        },
+        {
+          "path": "1",
+          "level": 1,
+          "crs": "EPSG:3857",
+          "pixels_per_tile": 256
+        },
+        {
+          "path": "2",
+          "level": 2,
+          "crs": "EPSG:3857",
+          "pixels_per_tile": 256
+        },
+        {
+          "path": "3",
+          "level": 3,
+          "crs": "EPSG:3857",
+          "pixels_per_tile": 256
+        },
+        {
+          "path": "4",
+          "level": 4,
+          "crs": "EPSG:3857",
+          "pixels_per_tile": 256
+        },
+        {
+          "path": "5",
+          "level": 5,
+          "crs": "EPSG:3857",
+          "pixels_per_tile": 256
+        }
+      ],
+      "type": "reduce",
+      "metadata": {
+        "method": "zarr_read.ipynb",
+        "approach": "top-down 2x2 averaging"
+      }
+    }
+  ],
+  "dimensions": {
+    "time": {
+      "size": 3,
+      "values": [
+        667008.0,
+        667032.0,
+        667056.0
+      ],
+      "units": "hours since 1950-01-01",
+      "long_name": "Time"
+    },
+    "depth": {
+      "size": 3,
+      "values": [
+        0.49402499198913574,
+        1.5413750410079956,
+        2.6456689834594727
+      ],
+      "units": "m",
+      "long_name": "Depth"
+    }
+  }
+}

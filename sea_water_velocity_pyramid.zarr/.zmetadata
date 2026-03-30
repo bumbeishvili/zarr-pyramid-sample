@@ -1,0 +1,661 @@
+{
+  "zarr_format": 1,
+  "metadata": {
+    ".zgroup": {
+      "zarr_format": 2
+    },
+    ".zattrs": {
+      "multiscales": [
+        {
+          "datasets": [
+            {
+              "path": "0",
+              "level": 0,
+              "crs": "EPSG:3857",
+              "pixels_per_tile": 256
+            },
+            {
+              "path": "1",
+              "level": 1,
+              "crs": "EPSG:3857",
+              "pixels_per_tile": 256
+            },
+            {
+              "path": "2",
+              "level": 2,
+              "crs": "EPSG:3857",
+              "pixels_per_tile": 256
+            },
+            {
+              "path": "3",
+              "level": 3,
+              "crs": "EPSG:3857",
+              "pixels_per_tile": 256
+            },
+            {
+              "path": "4",
+              "level": 4,
+              "crs": "EPSG:3857",
+              "pixels_per_tile": 256
+            },
+            {
+              "path": "5",
+              "level": 5,
+              "crs": "EPSG:3857",
+              "pixels_per_tile": 256
+            }
+          ],
+          "type": "reduce",
+          "metadata": {
+            "method": "zarr_read.ipynb",
+            "approach": "top-down 2x2 averaging"
+          }
+        }
+      ],
+      "dimensions": {
+        "time": {
+          "size": 3,
+          "values": [
+            667008.0,
+            667032.0,
+            667056.0
+          ],
+          "units": "hours since 1950-01-01",
+          "long_name": "Time"
+        },
+        "depth": {
+          "size": 3,
+          "values": [
+            0.49402499198913574,
+            1.5413750410079956,
+            2.6456689834594727
+          ],
+          "units": "m",
+          "long_name": "Depth"
+        }
+      }
+    },
+    "0/.zgroup": {
+      "zarr_format": 2
+    },
+    "0/.zattrs": {},
+    "0/uo/.zarray": {
+      "shape": [
+        3,
+        3,
+        256,
+        256
+      ],
+      "chunks": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "0/uo/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "y",
+        "x"
+      ],
+      "valid_min": -5.0,
+      "valid_max": 5.0,
+      "units": "m s-1",
+      "unit_long": "Meters per second",
+      "long_name": "Eastward velocity",
+      "standard_name": "eastward_sea_water_velocity",
+      "practical_min": -0.6208,
+      "practical_max": 0.5457
+    },
+    "0/x/.zarray": {
+      "shape": [
+        256
+      ],
+      "chunks": [
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "0/x/.zattrs": {},
+    "0/y/.zarray": {
+      "shape": [
+        256
+      ],
+      "chunks": [
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "0/y/.zattrs": {},
+    "0/spatial_ref/.zarray": {
+      "shape": [],
+      "chunks": [],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<i4"
+    },
+    "0/spatial_ref/.zattrs": {},
+    "1/.zgroup": {
+      "zarr_format": 2
+    },
+    "1/.zattrs": {},
+    "1/uo/.zarray": {
+      "shape": [
+        3,
+        3,
+        512,
+        512
+      ],
+      "chunks": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "1/uo/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "y",
+        "x"
+      ],
+      "valid_min": -5.0,
+      "valid_max": 5.0,
+      "units": "m s-1",
+      "unit_long": "Meters per second",
+      "long_name": "Eastward velocity",
+      "standard_name": "eastward_sea_water_velocity",
+      "practical_min": -0.6208,
+      "practical_max": 0.5457
+    },
+    "1/x/.zarray": {
+      "shape": [
+        512
+      ],
+      "chunks": [
+        512
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "1/x/.zattrs": {},
+    "1/y/.zarray": {
+      "shape": [
+        512
+      ],
+      "chunks": [
+        512
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "1/y/.zattrs": {},
+    "1/spatial_ref/.zarray": {
+      "shape": [],
+      "chunks": [],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<i4"
+    },
+    "1/spatial_ref/.zattrs": {},
+    "2/.zgroup": {
+      "zarr_format": 2
+    },
+    "2/.zattrs": {},
+    "2/uo/.zarray": {
+      "shape": [
+        3,
+        3,
+        1024,
+        1024
+      ],
+      "chunks": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "2/uo/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "y",
+        "x"
+      ],
+      "valid_min": -5.0,
+      "valid_max": 5.0,
+      "units": "m s-1",
+      "unit_long": "Meters per second",
+      "long_name": "Eastward velocity",
+      "standard_name": "eastward_sea_water_velocity",
+      "practical_min": -0.6208,
+      "practical_max": 0.5457
+    },
+    "2/x/.zarray": {
+      "shape": [
+        1024
+      ],
+      "chunks": [
+        1024
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "2/x/.zattrs": {},
+    "2/y/.zarray": {
+      "shape": [
+        1024
+      ],
+      "chunks": [
+        1024
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "2/y/.zattrs": {},
+    "2/spatial_ref/.zarray": {
+      "shape": [],
+      "chunks": [],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<i4"
+    },
+    "2/spatial_ref/.zattrs": {},
+    "3/.zgroup": {
+      "zarr_format": 2
+    },
+    "3/.zattrs": {},
+    "3/uo/.zarray": {
+      "shape": [
+        3,
+        3,
+        2048,
+        2048
+      ],
+      "chunks": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "3/uo/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "y",
+        "x"
+      ],
+      "valid_min": -5.0,
+      "valid_max": 5.0,
+      "units": "m s-1",
+      "unit_long": "Meters per second",
+      "long_name": "Eastward velocity",
+      "standard_name": "eastward_sea_water_velocity",
+      "practical_min": -0.6208,
+      "practical_max": 0.5457
+    },
+    "3/x/.zarray": {
+      "shape": [
+        2048
+      ],
+      "chunks": [
+        2048
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "3/x/.zattrs": {},
+    "3/y/.zarray": {
+      "shape": [
+        2048
+      ],
+      "chunks": [
+        2048
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "3/y/.zattrs": {},
+    "3/spatial_ref/.zarray": {
+      "shape": [],
+      "chunks": [],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<i4"
+    },
+    "3/spatial_ref/.zattrs": {},
+    "4/.zgroup": {
+      "zarr_format": 2
+    },
+    "4/.zattrs": {},
+    "4/uo/.zarray": {
+      "shape": [
+        3,
+        3,
+        4096,
+        4096
+      ],
+      "chunks": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "4/uo/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "y",
+        "x"
+      ],
+      "valid_min": -5.0,
+      "valid_max": 5.0,
+      "units": "m s-1",
+      "unit_long": "Meters per second",
+      "long_name": "Eastward velocity",
+      "standard_name": "eastward_sea_water_velocity",
+      "practical_min": -0.6208,
+      "practical_max": 0.5457
+    },
+    "4/x/.zarray": {
+      "shape": [
+        4096
+      ],
+      "chunks": [
+        4096
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "4/x/.zattrs": {},
+    "4/y/.zarray": {
+      "shape": [
+        4096
+      ],
+      "chunks": [
+        4096
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "4/y/.zattrs": {},
+    "4/spatial_ref/.zarray": {
+      "shape": [],
+      "chunks": [],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<i4"
+    },
+    "4/spatial_ref/.zattrs": {},
+    "5/.zgroup": {
+      "zarr_format": 2
+    },
+    "5/.zattrs": {},
+    "5/uo/.zarray": {
+      "shape": [
+        3,
+        3,
+        8192,
+        8192
+      ],
+      "chunks": [
+        1,
+        1,
+        256,
+        256
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "5/uo/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "y",
+        "x"
+      ],
+      "valid_min": -5.0,
+      "valid_max": 5.0,
+      "units": "m s-1",
+      "unit_long": "Meters per second",
+      "long_name": "Eastward velocity",
+      "standard_name": "eastward_sea_water_velocity",
+      "practical_min": -0.6208,
+      "practical_max": 0.5457
+    },
+    "5/x/.zarray": {
+      "shape": [
+        8192
+      ],
+      "chunks": [
+        8192
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "5/x/.zattrs": {},
+    "5/y/.zarray": {
+      "shape": [
+        8192
+      ],
+      "chunks": [
+        8192
+      ],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<f4"
+    },
+    "5/y/.zattrs": {},
+    "5/spatial_ref/.zarray": {
+      "shape": [],
+      "chunks": [],
+      "fill_value": 9.969209968386869e+36,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": ".",
+      "compressor": {
+        "id": "zlib",
+        "level": 1
+      },
+      "zarr_format": 2,
+      "dtype": "<i4"
+    },
+    "5/spatial_ref/.zattrs": {}
+  }
+}

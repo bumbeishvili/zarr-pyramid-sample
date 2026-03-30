@@ -1,0 +1,16 @@
+{
+  "_ARRAY_DIMENSIONS": [
+    "time",
+    "depth",
+    "y",
+    "x"
+  ],
+  "valid_min": -5.0,
+  "valid_max": 5.0,
+  "units": "m s-1",
+  "unit_long": "Meters per second",
+  "long_name": "Eastward velocity",
+  "standard_name": "eastward_sea_water_velocity",
+  "practical_min": -0.6208,
+  "practical_max": 0.5457
+}
